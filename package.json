@@ -1,0 +1,24 @@
+{
+  "name": "ts-args",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "sk337 <me@pk3.zip>",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "concurrently": "^9.1.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "rollup": "^4.28.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
